@@ -3,7 +3,7 @@ from selenium.webdriver.edge.options import Options
 from bs4 import BeautifulSoup
 import time
 
-def get_deputies_details(max_steps=5):
+def get_deputies_details_selenium(max_steps=5):
 
     BASE_URL = "https://www.cdep.ro/pls/parlam/structura2015.mp?idm=1&cam=2&leg=2024&pag=1&idl=1&prn=0&par="
 
